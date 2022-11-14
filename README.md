@@ -1,9 +1,10 @@
 To Dos
 
 - [x] Boilerplate
-- [ ] Sky
-- [ ] Textures and images
-- [ ] Ground
+- [x] Sky
+- [x] Textures and images
+- [x] Ground
+- [ ] Keyboard inputs
 - [ ] Player
 - [ ] First person view
 - [ ] Gravity
