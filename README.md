@@ -1,6 +1,6 @@
 To Dos
 
-- [ ] Boilerplate
+- [x] Boilerplate
 - [ ] Sky
 - [ ] Textures and images
 - [ ] Ground
