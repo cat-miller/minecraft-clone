@@ -13,7 +13,7 @@ function actionByKey(key) {
     Digit4: 'wood',
     Digit5: 'log',
   }
-  return keyActionMap[key]
+  return keyActionMap[key];
 }
 
 
@@ -24,11 +24,11 @@ export const useKeyboard = () => {
     moveLeft: false,
     moveRight: false,
     jump: false,
-    texture1: false,
-    texture2: false,
-    texture3: false,
-    texture4: false,
-    texture5: false,
+    dirt: false,
+    grass: false,
+    glass: false,
+    wood: false,
+    log: false,
   })
 
   const handleKeyDown = useCallback((e) => {
@@ -42,7 +42,7 @@ export const useKeyboard = () => {
       })
     }
   },[])
-}
+
 
 const handleKeyUp = useCallback((e) => {
   const action = actionByKey(e.code)
@@ -64,3 +64,6 @@ useEffect(() => {
     document.removeEventListener('keyup', handleKeyUp)
   }
 }, [handleKeyDown, handleKeyUp])
+
+return actions;
+}

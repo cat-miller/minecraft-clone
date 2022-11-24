@@ -41,3 +41,27 @@ body {
 .absolute {
   position: absolute;
 }
+
+.centered {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.cursor {
+  color: lightpink;
+}
+
+
+.texture-selector {
+  transform: scale(5);
+}
+
+.texture-selector img.active {
+  border: 2px solid palevioletred;
+}
+
+.menu {
+  top: 0;
+  left: 10px;
+}
